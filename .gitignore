@@ -1,2 +1,10 @@
 #Ignore idea folder
 .idea/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+.DS_Store
+# large raw data: provide a download script instead
+#data/raw/*.csv

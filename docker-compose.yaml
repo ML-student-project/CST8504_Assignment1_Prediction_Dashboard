@@ -1,0 +1,7 @@
+services:
+  dashboard:
+    image: dashboard:latest
+    build: ./
+    container_name: dashboard
+    ports:
+      - 8501:8501
