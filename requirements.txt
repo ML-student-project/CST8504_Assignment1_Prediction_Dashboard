@@ -39,6 +39,7 @@ opt_einsum==3.4.0
 optree==0.20.0
 packaging==26.3
 pandas==2.3.3
+pandas-stubs==2.3.3.260113
 pillow==12.3.0
 plotly==7.1.0
 protobuf==7.36.2
@@ -59,10 +60,11 @@ seaborn==0.13.2
 six==1.17.0
 starlette==1.7.0
 streamlit==1.64.0
-tensorflow==2.21.0
+tensorflow_cpu==2.21.0
 termcolor==3.3.0
 threadpoolctl==3.7.0
 toml==0.10.2
+types-pytz==2026.4.0.20260926
 typing_extensions==4.16.0
 tzdata==2026.4
 urllib3==2.8.0

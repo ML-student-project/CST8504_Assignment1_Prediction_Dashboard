@@ -1,5 +1,7 @@
+
 # 1. Start from an official, lightweight Python image
 FROM python:3.10-slim
+
 
 # 2. Set the working folder inside the container
 WORKDIR /app
@@ -9,18 +11,6 @@ WORKDIR /app
 #    every time you change your code.
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-
-#kt Clear caches.
-#kt Explicitly uninstall pip, setuptools, and wheel from the production image after
-#   dependencies are installed to further shrink the footprint.
-# KT - Results in image size that is the same as original.
-#RUN rm -rf /var/lib/apt/lists/* && \
-#    rm -rf ~/.cache/pip && \
-#    pip uninstall setuptools --yes && \
-#    pip uninstall -y wheel && \
-#    python -m pip uninstall -y pip
-#
-
 
 # 4. Copy the rest of the project (code, models, processed data)
 COPY . .
