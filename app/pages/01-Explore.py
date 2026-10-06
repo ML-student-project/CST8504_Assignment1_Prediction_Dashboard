@@ -1,18 +1,22 @@
 import streamlit as st
 import seaborn as sns
 import plotly.express as px
-
+import sys
+sys.path.append('./src')
 # streamlit page config
+import data_processor as dp
+
 st.set_page_config(
     page_title="Data Exploration",  # the page title shown in the browser tab
     layout="wide",  # page layout : use the entire screen
 )
 
 # load data
-df = sns.load_dataset('iris')
-# get column and species names
+df = dp.load_data()
+
+# get column and TenYearCHD names
 attributes = df.columns[:-1].tolist()
-species = df['species'].unique().tolist()
+tenYearCHD = df['TenYearCHD'].unique().tolist()
 
 
 # create sidebar with filtering options
@@ -22,34 +26,19 @@ with st.sidebar:
     # dropdown to select attributes
     selected_attribute = st.selectbox("Attribute: ", attributes, index=0)
     # multiselect to select species
-    selected_species = st.multiselect("Species: ", species, placeholder="Filter by species")
+    selected_tenYearCHD = st.multiselect("Chronic Heart Disease (CHD): ", tenYearCHD, placeholder="Filter by Ten Year CHD")
 
     # handle filter selections
-    if not selected_species:
-        selected_species = species
-    filtered_df = df[df['species'].isin(selected_species)]
-
-    filtered_df = df[df['species'].isin(selected_species)]
+    if not selected_tenYearCHD:
+        selected_tenYearCHD = tenYearCHD
+    filtered_df = df[df['TenYearCHD'].isin(selected_tenYearCHD)]
 
 
-# pairwise scatter plot
-def create_pairplot(df, attributes, species):
-    fig = px.scatter_matrix(df, dimensions=attributes,
-                                    color="species",
-                                    opacity=0.6
-                                   )
-    fig.update_traces(diagonal_visible=False)
-    return fig
-
-# pairwise plot
-st.subheader("Pairwise Scatter Plot (all attributes)")
-pairplot_fig = create_pairplot(filtered_df, attributes, selected_species)
-st.plotly_chart(pairplot_fig, use_container_width=True)
 
 # histogram
 def create_histogram(df, attribute):
     fig = px.histogram(df, x=attribute,
-                            color="species",
+                            color="TenYearCHD",
                             marginal="box",
                             barmode="overlay")
     fig.update_traces(marker=dict(line=dict(
@@ -61,8 +50,8 @@ def create_histogram(df, attribute):
 
 # violin plot
 def create_violin_plot(df, attribute, points='all'):
-    fig = px.violin(df, x="species", y=attribute,
-                            color="species",
+    fig = px.violin(df, x="TenYearCHD", y=attribute,
+                            color="TenYearCHD",
                             box=True,
                             points=points)
     fig.update_layout(title=f"Violin Plot of {attribute}")
