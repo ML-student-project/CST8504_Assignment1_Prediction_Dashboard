@@ -14,6 +14,19 @@ st.set_page_config(
 # load data
 df = dp.load_data()
 
+# Custom function
+def categorize(age):
+    if age < 20: return '[20 - Under]'
+    elif age >= 20 and age < 30: return '[20-30]'
+    elif age >= 30 and age < 40: return '[30-40]'
+    elif age >= 40 and age < 50: return '[40-50]'
+    elif age >= 50 and age < 60: return '[50-60]'
+    elif age >= 60 and age < 70: return '[60-70]'
+    else: return '[70 Plus]'
+
+df['Age_Group'] = df['age'].apply(categorize)
+
+
 # get column and TenYearCHD names
 attributes = df.columns[:-1].tolist()
 tenYearCHD = df['TenYearCHD'].unique().tolist()
@@ -33,6 +46,13 @@ with st.sidebar:
         selected_tenYearCHD = tenYearCHD
     filtered_df = df[df['TenYearCHD'].isin(selected_tenYearCHD)]
 
+# Pie chart
+def create_pie(df, attribute):
+    # Filter by third attribute
+    filtered_df = df[df['TenYearCHD'].isin(selected_tenYearCHD)]
+    fig = px.pie(filtered_df, values=attribute, names="Age_Group")
+    fig.update_layout(title=f"Pie chart of {attribute} by age group and by CHD = {selected_tenYearCHD} ", hovermode="x unified")
+    return fig
 
 
 # histogram
@@ -56,6 +76,10 @@ def create_violin_plot(df, attribute, points='all'):
                             points=points)
     fig.update_layout(title=f"Violin Plot of {attribute}")
     return fig
+
+# Display Pie chart
+pie_fig = create_pie(df, selected_attribute)
+st.plotly_chart(pie_fig, use_container_width=True)
 
 # columns to add 2 plots side by side
 col1, col2 = st.columns(2)
