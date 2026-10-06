@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from streamlit.type_util import async_generator_to_sync
 
-def load_data():
-    df = pd.read_csv('./data/raw/framingham_heart_study.csv',na_values=['NA'])
+def load_data(filename = "./data/raw/framingham_heart_study.csv"):
+    df = pd.read_csv(filename,na_values=['NA'])
     return df
 
 # Histogram chart for all number columns.

@@ -1,7 +1,7 @@
 import data_processor as dp
 import pandas as pd
 
-df = pd.read_csv('../data/raw/framingham_heart_study.csv')
+df = dp.load_data('../data/raw/framingham_heart_study.csv')
 
 # Display the first 5 rows
 print(df.head())
