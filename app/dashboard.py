@@ -1,5 +1,9 @@
 import streamlit as st
+import pandas as pd
 import seaborn as sns
+import sys
+sys.path.append('./src')
+import data_processor as dp
 
 # streamlit page config
 st.set_page_config(
@@ -8,7 +12,7 @@ st.set_page_config(
 )
 
 # load data
-df = sns.load_dataset('iris')
+df = dp.load_data()
 
 # basic statistics
 st.header("Summary Statistics")

@@ -17,10 +17,7 @@ species = df['species'].unique().tolist()
 
 
 
-#--- From internet
-# 1. Load the pre-trained model
-# Replace 'your_model.joblib' with your actual model file path
-#loaded_model = joblib.load('your_model.joblib')
+
 st.write("Loading pre-trained model")
 
 # 2. Set up UI
