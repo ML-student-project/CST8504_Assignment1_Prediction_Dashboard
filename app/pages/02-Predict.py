@@ -5,54 +5,59 @@ import pandas as pd
 
 # streamlit page config
 st.set_page_config(
-    page_title="Iris Dashboard",  # the page title shown in the browser tab
+    page_title="Chronic Heart Disease Dashboard",  # the page title shown in the browser tab
     layout="wide",  # page layout : use the entire screen
 )
-# add page title
-# load data
-df = sns.load_dataset('iris')
-# get column and species names
-attributes = df.columns[:-1].tolist()
-species = df['species'].unique().tolist()
-
-
-
-
-st.write("Loading pre-trained model")
 
 # 2. Set up UI
-st.title("Stroke Risk Prediction")
+st.title("10 Year risk of coronary heart disease (CHD) prediction")
 st.header("User Input")
 
 # Define input widgets
-user_age = st.slider("Age", min_value=0, max_value=100, value=30)
-user_gender = st.radio("Gender", ["Male", "Female"])
-user_bmi = st.number_input("BMI", min_value=10.0, max_value=50.0, value=25.0)
-user_avg_glucose = st.number_input("Avg Glucose Level", min_value=0.0, value=80.0)
-user_hypertension = st.checkbox("Hypertension")
-user_heart_disease = st.checkbox("Heart Disease")
+user_male            = st.radio("male            ",["Male","Female"])
+user_age             = st.slider("age            ",min_value=0, max_value=100, value=40)
+user_education       = st.radio("education Years ",[1,2,3,4])
+user_cigsPerDay      = st.slider("cigsPerDay      ",min_value=0, max_value=100, value=30)
+user_totChol         = st.slider("totChol         ",min_value=0, max_value=1000, value=100)
+user_sysBP           = st.slider("sysBP           ",min_value=70, max_value=500, value=100)
+user_diaBP           = st.slider("diaBP           ",min_value=70, max_value=500, value=100)
+user_BMI             = st.slider("BMI             ",min_value=70, max_value=500, value=100)
+user_heartRate       = st.slider("heartRate       ",min_value=70, max_value=500, value=100)
+user_glucose         = st.slider("glucose         ",min_value=70, max_value=500, value=100)
+user_currentSmoker   = st.checkbox("currentSmoker   ")
+user_BPMeds          = st.checkbox("BPMeds          ")
+user_prevalentStroke = st.checkbox("prevalentStroke ")
+user_prevalentHyp    = st.checkbox("prevalentHyp    ")
+user_diabetes        = st.checkbox("diabetes        ")
 
 # 3. Handle Prediction on Button Click
 if st.button("Predict"):
-    # Prepare data for the model
-    user_data = pd.DataFrame({
-        "age": [user_age],
-        "gender": [user_gender],
-        "bmi": [user_bmi],
-        "avg_glucose_level": [user_avg_glucose],
-        "hypertension": [1 if user_hypertension else 0],
-        "heart_disease": [1 if user_heart_disease else 0]
-    })
+   # Prepare data for the model
+   user_data = pd.DataFrame({
+        "male": [user_male],
+        "age ": [user_age],
+        "education": [user_education],
+        "currentSmoker": [1 if user_currentSmoker else 0],
+        "cigsPerDay": [1 if user_cigsPerDay else 0],
+        "BPMeds": [1 if user_BPMeds else 0],
+        "prevalentStroke": [1 if user_prevalentStroke else 0],
+        "prevalentHyp": [1 if user_prevalentHyp else 0],
+        "diabetes": [1 if user_diabetes else 0],
+        "totChol": [user_totChol],
+        "sysBP": [user_sysBP],
+        "diaBP": [user_diaBP],
+        "BMI": [user_BMI],
+        "heartRate": [user_heartRate],
+        "glucose": [user_glucose]
+   })
 
-    # Make prediction
-   # prediction = loaded_model.predict(user_data)
-    st.write("making prediction")
+   # Make prediction
+   #prediction = CHD_prediction(input_data)
+   prediction = [1]
 
-    prediction = [1]
-    
     # Display result
-    if prediction[0] == 1:
-        st.error("At Risk")
-    else:
-        st.success("Not At Risk")
+   if prediction[0] == 1:
+       st.error("At Risk of coronary heart disease in next 10 years")
+   else:
+       st.success("Not At risk of coronary heart disease in next 10 years")
 
