@@ -1,0 +1,300 @@
+DEATH_EVENT,sex,smoking,diabetes,high_blood_pressure,anaemia,Age_Group,Time_Group,EF_Group,Creatinine_Group,Sodium_Group
+1,1,0,0,1,0,65+,0-2 Months,Critically Low,High,Mildly Low
+1,1,0,0,0,0,40-55,0-2 Months,Very Low,Normal,Normal
+1,1,1,0,0,0,55-65,0-2 Months,Critically Low,Normal,Mildly Low
+1,1,0,0,0,1,40-55,0-2 Months,Critically Low,High,Normal
+1,0,0,1,0,1,55-65,0-2 Months,Critically Low,High,Severely Low
+1,1,1,0,1,1,65+,0-2 Months,Very Low,High,Mildly Low
+1,1,0,0,0,1,65+,0-2 Months,Critically Low,Normal,Normal
+1,1,1,1,0,1,55-65,0-2 Months,Normal,Normal,Mildly Low
+1,0,0,0,0,0,55-65,0-2 Months,Normal,High,Normal
+1,1,1,0,1,1,65+,0-2 Months,Very Low,High,Mildly Low
+1,1,1,0,1,1,65+,0-2 Months,Very Low,High,Mildly Low
+1,1,1,0,1,0,55-65,0-2 Months,Critically Low,Normal,Normal
+1,1,0,0,0,1,40-55,0-2 Months,Critically Low,Normal,Normal
+1,1,0,0,1,1,40-55,0-2 Months,Very Low,Normal,Normal
+0,0,0,0,1,1,40-55,0-2 Months,Critically Low,Normal,Normal
+1,1,0,0,0,1,65+,0-2 Months,Mildly Low,Normal,Normal
+1,1,0,0,0,1,65+,0-2 Months,Very Low,Normal,Normal
+1,1,0,0,0,0,40-55,0-2 Months,Critically Low,Normal,Mildly Low
+1,0,0,0,1,1,65+,0-2 Months,Critically Low,Normal,Normal
+1,0,0,1,0,1,40-55,0-2 Months,Normal,High,Moderately Low
+0,0,0,0,1,1,55-65,0-2 Months,Critically Low,Normal,Normal
+1,0,0,1,1,1,55-65,0-2 Months,Critically Low,High,Normal
+1,1,1,0,1,1,65+,0-2 Months,Very Low,Normal,Normal
+0,1,0,1,0,0,40-55,0-2 Months,Normal,Normal,Normal
+1,0,0,1,1,0,65+,0-2 Months,Critically Low,High,Mildly Low
+1,1,1,1,0,0,65+,0-2 Months,Very Low,High,Normal
+1,0,0,0,1,1,65+,0-2 Months,Very Low,Normal,Normal
+1,1,1,1,1,0,65+,0-2 Months,Mildly Low,Normal,Normal
+1,1,0,0,0,1,55-65,0-2 Months,Very Low,High,Mildly Low
+1,1,1,1,0,0,65+,0-2 Months,Critically Low,Normal,Mildly Low
+1,1,0,1,1,0,65+,0-2 Months,Very Low,High,Mildly Low
+1,1,0,0,0,0,65+,0-2 Months,Mildly Low,High,Mildly Low
+1,0,0,1,1,1,40-55,0-2 Months,Very Low,Normal,Mildly Low
+0,0,0,1,0,1,40-55,0-2 Months,Critically Low,Normal,Normal
+1,1,0,1,1,0,55-65,0-2 Months,Mildly Low,Normal,Normal
+1,1,0,1,0,0,65+,0-2 Months,Very Low,High,Mildly Low
+1,1,0,1,0,1,65+,0-2 Months,Mildly Low,Normal,Mildly Low
+1,0,0,1,1,1,65+,0-2 Months,Mildly Low,Normal,Normal
+0,1,0,1,0,0,55-65,0-2 Months,Critically Low,High,Normal
+1,0,0,1,0,0,55-65,0-2 Months,Very Low,High,Normal
+1,1,1,0,1,0,65+,0-2 Months,Critically Low,High,Mildly Low
+1,0,1,1,1,0,40-55,0-2 Months,Critically Low,Normal,Normal
+1,1,1,1,1,0,65+,0-2 Months,Mildly Low,Normal,Normal
+0,1,0,1,1,0,65+,0-2 Months,Mildly Low,Normal,Mildly Low
+1,0,0,1,0,1,55-65,0-2 Months,Normal,Normal,Normal
+1,1,1,1,0,0,40-55,0-2 Months,Very Low,High,Normal
+1,1,0,0,1,0,40-55,0-2 Months,Critically Low,Normal,Mildly Low
+1,1,1,1,1,0,55-65,0-2 Months,Very Low,Low,Normal
+1,1,0,0,1,1,65+,0-2 Months,Critically Low,High,Mildly Low
+1,0,0,0,0,1,55-65,0-2 Months,Critically Low,Normal,Normal
+1,1,0,0,1,1,65+,0-2 Months,Critically Low,Normal,Normal
+1,0,0,0,1,1,40-55,0-2 Months,Critically Low,High,Normal
+1,0,0,1,0,0,55-65,0-2 Months,Normal,High,High
+1,0,0,1,1,1,65+,0-2 Months,Mildly Low,Normal,Mildly Low
+1,0,1,1,0,1,55-65,0-2 Months,Very Low,High,Mildly Low
+1,1,0,0,0,1,65+,0-2 Months,Critically Low,High,Mildly Low
+0,1,1,0,0,1,65+,0-2 Months,Very Low,High,Normal
+0,1,1,0,0,1,55-65,0-2 Months,Very Low,Low,Normal
+1,1,1,0,1,0,40-55,0-2 Months,Critically Low,Normal,Normal
+1,1,1,1,1,0,65+,0-2 Months,Critically Low,Normal,Normal
+1,1,0,1,1,0,40-55,0-2 Months,Critically Low,Normal,Normal
+1,0,0,0,1,0,40-55,0-2 Months,Very Low,High,Mildly Low
+0,1,1,0,0,0,40-55,0-2 Months,Very Low,Normal,Normal
+1,1,0,0,0,0,40-55,2-4 Months,Very Low,Normal,Normal
+0,0,0,0,0,0,40-55,2-4 Months,Normal,Normal,Normal
+1,1,1,0,0,0,55-65,2-4 Months,Critically Low,High,Mildly Low
+1,0,0,1,0,1,40-55,2-4 Months,Critically Low,Normal,Normal
+1,1,1,0,0,1,65+,2-4 Months,Critically Low,Normal,Normal
+1,0,0,0,0,0,65+,2-4 Months,Critically Low,Normal,Normal
+1,1,0,1,0,0,55-65,2-4 Months,Critically Low,High,Normal
+0,1,1,0,0,0,40-55,2-4 Months,Very Low,Normal,Normal
+0,1,1,1,0,0,55-65,2-4 Months,Very Low,Normal,Normal
+1,1,1,0,0,0,65+,2-4 Months,Very Low,Normal,Mildly Low
+0,1,1,1,0,0,55-65,2-4 Months,Mildly Low,Normal,Normal
+1,1,1,0,0,0,65+,2-4 Months,Critically Low,Normal,Mildly Low
+1,1,1,0,0,1,55-65,2-4 Months,Critically Low,Low,Normal
+0,0,1,0,1,0,65+,2-4 Months,Normal,Normal,Normal
+0,1,0,1,0,0,40-55,2-4 Months,Very Low,Normal,Normal
+0,1,1,1,1,1,65+,2-4 Months,Very Low,Low,Mildly Low
+0,0,0,0,1,0,40-55,2-4 Months,Mildly Low,Normal,Normal
+0,0,0,0,0,0,65+,2-4 Months,Very Low,High,Normal
+0,1,1,0,0,0,65+,2-4 Months,Mildly Low,Normal,Normal
+1,0,0,1,0,1,55-65,2-4 Months,Critically Low,High,Mildly Low
+0,1,0,0,1,1,65+,2-4 Months,Mildly Low,High,Mildly Low
+1,0,0,1,1,1,55-65,2-4 Months,Critically Low,Normal,Normal
+0,1,0,0,0,0,40-55,2-4 Months,Mildly Low,Low,Normal
+0,1,0,0,1,0,40-55,2-4 Months,Very Low,Normal,Normal
+0,1,0,1,1,1,55-65,2-4 Months,Normal,Normal,Normal
+0,1,0,1,1,0,40-55,2-4 Months,Very Low,Low,Normal
+0,1,0,0,1,1,55-65,2-4 Months,Critically Low,Normal,Normal
+0,1,1,1,0,0,65+,2-4 Months,Mildly Low,Normal,Normal
+0,1,0,1,0,0,55-65,2-4 Months,Mildly Low,Normal,Mildly Low
+0,0,0,0,0,0,40-55,2-4 Months,Normal,Normal,Normal
+1,1,0,0,0,1,55-65,2-4 Months,Critically Low,High,Normal
+0,0,0,1,1,0,55-65,2-4 Months,Very Low,Low,Normal
+0,1,0,0,1,1,55-65,2-4 Months,Normal,Normal,Normal
+0,1,0,1,1,1,55-65,2-4 Months,Critically Low,Normal,Mildly Low
+0,0,0,0,0,1,65+,2-4 Months,Normal,Normal,Normal
+0,0,0,1,1,1,55-65,2-4 Months,Critically Low,Normal,Normal
+0,0,0,1,0,1,55-65,2-4 Months,Very Low,Normal,Normal
+0,1,0,0,0,1,55-65,2-4 Months,Critically Low,Normal,Normal
+0,1,0,0,1,0,65+,2-4 Months,Mildly Low,Normal,Normal
+0,1,1,0,0,0,65+,2-4 Months,Critically Low,Normal,Normal
+0,1,1,0,0,0,40-55,2-4 Months,Critically Low,Normal,Normal
+0,0,0,0,1,0,55-65,2-4 Months,Mildly Low,High,Normal
+1,0,1,0,1,1,65+,2-4 Months,Critically Low,High,Normal
+0,1,0,0,0,0,40-55,2-4 Months,Mildly Low,Normal,Normal
+0,1,0,1,0,1,40-55,2-4 Months,Very Low,Normal,Normal
+0,1,1,0,0,0,55-65,2-4 Months,Very Low,Normal,Mildly Low
+0,1,1,1,0,0,40-55,2-4 Months,Very Low,Normal,Normal
+1,1,1,0,0,0,65+,2-4 Months,Normal,Normal,Mildly Low
+0,1,1,0,0,0,40-55,2-4 Months,Very Low,Normal,Normal
+0,1,0,1,0,0,40-55,2-4 Months,Critically Low,High,Normal
+1,0,0,0,0,1,65+,2-4 Months,Normal,Normal,Normal
+0,1,0,1,1,1,55-65,2-4 Months,Very Low,Normal,Mildly Low
+0,0,0,0,0,1,55-65,2-4 Months,Very Low,Normal,Normal
+0,0,0,1,1,1,55-65,2-4 Months,Normal,Low,Normal
+0,0,0,0,0,1,65+,2-4 Months,Normal,High,Normal
+0,0,0,1,1,1,55-65,2-4 Months,Normal,Normal,Normal
+1,0,0,0,0,0,65+,2-4 Months,Very Low,High,Mildly Low
+0,1,1,0,1,1,55-65,2-4 Months,Normal,High,Normal
+0,0,0,1,1,1,65+,2-4 Months,Very Low,Normal,Normal
+0,0,0,1,0,0,55-65,2-4 Months,Very Low,Normal,Normal
+0,0,0,0,1,1,55-65,2-4 Months,Critically Low,Normal,Normal
+1,1,0,0,0,0,55-65,2-4 Months,Very Low,High,Mildly Low
+0,0,0,0,0,1,40-55,2-4 Months,Mildly Low,Normal,Normal
+1,0,0,1,1,0,40-55,2-4 Months,Critically Low,High,Moderately Low
+0,0,0,1,0,1,55-65,2-4 Months,Normal,Normal,Normal
+0,1,1,0,1,0,55-65,2-4 Months,Critically Low,Low,Normal
+0,1,0,1,0,1,40-55,2-4 Months,Very Low,High,Normal
+0,1,1,0,1,1,40-55,2-4 Months,Normal,Low,Normal
+0,1,0,1,0,1,55-65,2-4 Months,Mildly Low,High,Mildly Low
+0,0,0,0,1,0,40-55,2-4 Months,Very Low,Normal,Normal
+0,1,1,0,1,0,55-65,2-4 Months,Normal,Normal,Normal
+0,1,1,0,0,0,65+,2-4 Months,Very Low,Normal,Normal
+0,1,0,0,0,0,65+,2-4 Months,Very Low,Normal,Normal
+0,0,0,1,0,1,55-65,2-4 Months,Normal,Normal,Normal
+0,1,0,0,0,1,65+,2-4 Months,Critically Low,High,Mildly Low
+0,0,0,1,0,0,55-65,2-4 Months,Very Low,Normal,Normal
+0,1,0,0,1,0,40-55,2-4 Months,Critically Low,Normal,Normal
+1,1,0,0,0,0,65+,2-4 Months,Very Low,Normal,Mildly Low
+0,0,0,0,0,1,40-55,2-4 Months,Very Low,Normal,Normal
+0,0,0,1,0,0,40-55,2-4 Months,Critically Low,Normal,Mildly Low
+0,0,0,0,1,1,55-65,2-4 Months,Very Low,Normal,Normal
+1,1,1,0,1,1,65+,2-4 Months,Critically Low,High,Normal
+0,1,1,0,0,0,40-55,2-4 Months,Critically Low,Low,Normal
+0,1,1,0,0,0,40-55,2-4 Months,Critically Low,Low,Normal
+0,1,0,0,0,0,55-65,2-4 Months,Normal,Normal,Normal
+1,1,0,0,0,1,65+,2-4 Months,Critically Low,High,Mildly Low
+0,1,0,0,1,0,55-65,2-4 Months,Very Low,Normal,Normal
+1,0,0,0,1,0,65+,2-4 Months,Mildly Low,High,Normal
+0,1,0,1,1,0,55-65,2-4 Months,Normal,Normal,Normal
+0,1,1,0,1,0,40-55,2-4 Months,Mildly Low,Normal,Mildly Low
+0,1,1,1,0,0,40-55,2-4 Months,Very Low,Normal,Normal
+0,0,0,0,1,1,55-65,2-4 Months,Very Low,Normal,Normal
+0,1,0,1,0,1,55-65,2-4 Months,Critically Low,High,Normal
+0,0,0,0,0,1,40-55,2-4 Months,Very Low,High,Normal
+0,1,1,0,0,0,40-55,2-4 Months,Critically Low,Normal,Normal
+0,1,0,0,0,1,65+,4-6 Months,Mildly Low,Normal,Mildly Low
+0,1,1,0,1,1,55-65,4-6 Months,Mildly Low,Normal,Normal
+0,1,0,0,1,1,65+,4-6 Months,Very Low,Normal,Mildly Low
+0,1,1,0,0,1,40-55,4-6 Months,Very Low,Normal,Normal
+0,1,1,0,0,1,55-65,4-6 Months,Very Low,Normal,Normal
+1,0,0,1,0,1,40-55,4-6 Months,Very Low,Normal,Normal
+1,1,0,1,0,0,40-55,4-6 Months,Critically Low,Normal,Normal
+1,0,0,1,1,0,65+,4-6 Months,Very Low,Normal,Normal
+0,1,1,0,0,0,40-55,4-6 Months,Normal,Low,Mildly Low
+1,1,0,1,0,0,55-65,4-6 Months,Critically Low,High,Mildly Low
+0,0,0,1,0,0,55-65,4-6 Months,Very Low,Normal,Normal
+0,0,0,0,1,0,65+,4-6 Months,Very Low,Normal,Mildly Low
+0,1,1,1,0,1,40-55,4-6 Months,Very Low,High,Normal
+0,1,1,0,0,0,40-55,4-6 Months,Very Low,Normal,Normal
+0,1,1,0,1,1,65+,4-6 Months,Normal,Normal,Normal
+0,1,0,0,0,1,40-55,4-6 Months,Critically Low,Normal,Normal
+0,1,1,1,1,0,55-65,4-6 Months,Very Low,Normal,Normal
+0,1,1,0,0,1,55-65,4-6 Months,Normal,Normal,Normal
+0,1,1,0,0,0,65+,4-6 Months,Very Low,Normal,Normal
+0,0,0,0,0,1,40-55,4-6 Months,Mildly Low,Normal,Normal
+0,1,0,1,0,1,55-65,4-6 Months,Normal,Normal,Normal
+0,1,1,0,0,0,40-55,4-6 Months,Very Low,Low,Normal
+0,1,0,1,0,0,40-55,4-6 Months,Critically Low,Normal,Normal
+1,1,1,1,0,1,55-65,4-6 Months,Critically Low,Normal,Normal
+1,1,1,1,0,0,55-65,4-6 Months,Critically Low,Normal,Normal
+1,1,0,0,1,0,65+,4-6 Months,Very Low,High,Mildly Low
+1,1,1,0,0,1,55-65,4-6 Months,Critically Low,Normal,Normal
+1,1,0,1,0,1,55-65,4-6 Months,Critically Low,High,Normal
+1,0,0,0,0,0,40-55,4-6 Months,Mildly Low,Low,Mildly Low
+1,0,0,1,0,0,55-65,4-6 Months,Critically Low,High,Normal
+0,0,0,1,1,1,55-65,4-6 Months,Very Low,Normal,Normal
+0,0,0,0,1,0,40-55,4-6 Months,Mildly Low,Normal,Normal
+0,1,0,1,0,0,65+,4-6 Months,Very Low,High,Mildly Low
+0,0,0,0,0,1,55-65,4-6 Months,Normal,High,Normal
+0,1,0,1,0,1,40-55,4-6 Months,Very Low,Low,Mildly Low
+0,1,1,1,0,1,65+,4-6 Months,Critically Low,Normal,Normal
+1,1,0,0,1,0,40-55,4-6 Months,Critically Low,High,Normal
+1,1,0,0,0,1,65+,4-6 Months,Mildly Low,High,Normal
+0,0,0,1,1,0,40-55,6-8 Months,Very Low,Normal,Normal
+0,0,0,0,0,0,55-65,6-8 Months,Critically Low,Normal,Normal
+0,0,0,1,1,1,40-55,6-8 Months,Critically Low,Normal,Mildly Low
+0,1,1,1,0,0,55-65,6-8 Months,Very Low,High,Severely Low
+0,1,0,0,0,1,55-65,6-8 Months,Mildly Low,Low,Normal
+0,1,0,1,1,0,40-55,6-8 Months,Normal,Normal,Normal
+0,1,0,0,1,0,65+,6-8 Months,Normal,Normal,Normal
+0,1,1,0,1,0,55-65,6-8 Months,Critically Low,High,Normal
+0,1,1,0,0,1,65+,6-8 Months,Very Low,Low,Normal
+0,0,0,1,0,1,40-55,6-8 Months,Mildly Low,Normal,Normal
+0,0,0,0,0,1,40-55,6-8 Months,Very Low,Normal,Normal
+0,1,0,0,0,0,65+,6-8 Months,Very Low,Normal,Normal
+0,0,0,1,0,1,55-65,6-8 Months,Very Low,Normal,Normal
+0,0,0,1,1,0,40-55,6-8 Months,Very Low,Normal,Mildly Low
+0,1,1,1,1,0,65+,6-8 Months,Critically Low,Normal,Normal
+0,1,1,0,1,0,40-55,6-8 Months,Normal,Normal,Normal
+0,1,1,0,0,0,65+,6-8 Months,Mildly Low,High,Normal
+1,0,0,1,1,1,40-55,6-8 Months,Critically Low,High,Mildly Low
+0,1,0,0,1,1,55-65,6-8 Months,Very Low,Normal,Mildly Low
+0,1,0,0,1,0,65+,6-8 Months,Very Low,Normal,Mildly Low
+0,0,0,0,1,0,65+,6-8 Months,Mildly Low,Normal,Normal
+1,0,0,0,1,1,40-55,6-8 Months,Normal,High,Normal
+0,1,0,1,0,1,65+,6-8 Months,Very Low,Normal,Mildly Low
+0,0,0,1,1,0,40-55,6-8 Months,Very Low,Low,Normal
+1,1,0,0,0,0,65+,6-8 Months,Critically Low,High,Mildly Low
+0,1,1,0,0,0,55-65,6-8 Months,Mildly Low,Normal,Normal
+0,1,1,0,0,1,40-55,6-8 Months,Very Low,Normal,Normal
+0,1,0,0,0,0,40-55,6-8 Months,Critically Low,Normal,Mildly Low
+0,1,0,1,0,0,55-65,6-8 Months,Critically Low,Normal,Normal
+0,0,0,1,0,0,65+,6-8 Months,Normal,High,Mildly Low
+0,1,1,0,0,1,55-65,6-8 Months,Critically Low,Normal,Mildly Low
+0,1,0,0,1,1,40-55,6-8 Months,Very Low,Normal,Normal
+0,0,0,0,0,0,55-65,6-8 Months,Critically Low,High,Mildly Low
+0,0,0,0,0,0,65+,6-8 Months,Critically Low,Normal,Mildly Low
+1,0,0,0,0,0,55-65,6-8 Months,Critically Low,High,Mildly Low
+0,1,1,0,0,0,65+,6-8 Months,Very Low,Normal,Mildly Low
+0,1,0,0,0,1,40-55,6-8 Months,Very Low,Normal,Normal
+0,1,1,0,0,1,40-55,6-8 Months,Very Low,High,Normal
+0,1,1,0,0,1,40-55,6-8 Months,Mildly Low,Normal,Normal
+0,1,0,0,1,1,65+,6-8 Months,Mildly Low,Normal,Normal
+0,1,0,0,1,0,65+,6-8 Months,Mildly Low,Normal,High
+0,1,0,0,0,0,65+,6-8 Months,Critically Low,Normal,Mildly Low
+0,0,0,1,0,1,55-65,6-8 Months,Very Low,Normal,Normal
+0,1,1,0,0,1,40-55,6-8 Months,Mildly Low,Normal,Normal
+0,0,0,1,1,0,65+,6-8 Months,Very Low,Normal,Normal
+0,1,1,1,0,0,55-65,6-8 Months,Critically Low,Normal,Normal
+0,1,1,0,0,0,40-55,6-8 Months,Very Low,Normal,Normal
+0,0,0,0,1,1,65+,6-8 Months,Very Low,Normal,Normal
+0,1,0,1,0,0,40-55,6-8 Months,Very Low,High,Mildly Low
+0,1,0,1,0,1,55-65,6-8 Months,Very Low,High,Normal
+1,1,0,0,0,0,40-55,6-8 Months,Critically Low,Normal,Normal
+0,1,0,0,0,0,55-65,6-8 Months,Critically Low,High,Normal
+0,1,1,0,0,0,40-55,6-8 Months,Very Low,Normal,Normal
+0,0,0,1,0,0,40-55,6-8 Months,Very Low,Normal,Mildly Low
+0,0,0,0,1,0,40-55,6-8 Months,Critically Low,Low,Normal
+0,0,0,1,0,0,40-55,6-8 Months,Very Low,Normal,Normal
+0,1,0,0,1,0,40-55,6-8 Months,Mildly Low,Normal,Mildly Low
+0,0,0,1,1,0,65+,6-8 Months,Very Low,Normal,Mildly Low
+0,1,0,0,1,1,40-55,6-8 Months,Normal,Normal,Normal
+0,1,1,1,1,1,40-55,6-8 Months,Critically Low,Normal,Normal
+0,0,0,0,0,0,55-65,6-8 Months,Very Low,High,Normal
+0,1,0,1,1,0,55-65,6-8 Months,Very Low,Normal,Normal
+0,1,0,1,0,1,40-55,6-8 Months,Critically Low,Normal,Normal
+0,1,1,0,0,0,40-55,6-8 Months,Mildly Low,Low,Normal
+0,1,0,0,0,0,40-55,6-8 Months,Very Low,Normal,Normal
+0,0,0,0,0,1,55-65,6-8 Months,Very Low,Low,Mildly Low
+1,1,0,1,0,1,55-65,6-8 Months,Critically Low,High,Mildly Low
+0,0,0,1,0,1,65+,6-8 Months,Normal,Normal,Normal
+0,1,0,1,0,0,55-65,6-8 Months,Very Low,Normal,Normal
+0,1,1,0,0,1,40-55,6-8 Months,Very Low,Normal,Normal
+1,1,1,0,0,0,40-55,8+ Months,Critically Low,High,Mildly Low
+0,1,0,1,0,1,55-65,8+ Months,Very Low,High,Normal
+0,0,0,1,0,0,40-55,8+ Months,Very Low,Normal,Normal
+0,1,0,1,0,0,40-55,8+ Months,Very Low,Normal,Mildly Low
+0,1,1,1,1,0,40-55,8+ Months,Critically Low,High,Mildly Low
+0,0,0,1,0,0,40-55,8+ Months,Very Low,Normal,Mildly Low
+0,0,0,0,0,0,65+,8+ Months,Very Low,Normal,Mildly Low
+0,1,0,0,0,0,40-55,8+ Months,Very Low,Low,Normal
+0,1,1,1,0,1,55-65,8+ Months,Critically Low,Normal,Normal
+0,0,0,0,1,0,40-55,8+ Months,Very Low,Normal,Normal
+0,0,0,0,0,0,65+,8+ Months,Very Low,Normal,Normal
+0,1,0,1,0,0,65+,8+ Months,Very Low,Normal,Normal
+0,0,0,1,0,1,40-55,8+ Months,Critically Low,Low,Normal
+0,0,0,1,0,0,40-55,8+ Months,Very Low,Normal,Normal
+0,1,0,1,0,0,65+,8+ Months,Very Low,Normal,Normal
+0,1,1,0,0,0,65+,8+ Months,Very Low,High,Normal
+0,1,1,0,0,0,40-55,8+ Months,Critically Low,High,Mildly Low
+0,1,1,0,0,0,55-65,8+ Months,Very Low,Normal,Normal
+0,1,0,0,0,1,40-55,8+ Months,Very Low,Normal,Normal
+0,1,0,1,0,1,40-55,8+ Months,Very Low,Normal,Normal
+0,1,0,0,0,0,55-65,8+ Months,Very Low,High,Normal
+0,0,0,1,0,0,40-55,8+ Months,Normal,Normal,Mildly Low
+0,0,0,1,0,0,55-65,8+ Months,Very Low,Normal,Normal
+0,0,0,0,0,1,65+,8+ Months,Very Low,Normal,Normal
+0,0,0,1,0,0,40-55,8+ Months,Normal,Normal,Normal
+0,1,0,0,0,0,55-65,8+ Months,Very Low,High,Normal
+0,1,1,1,0,0,40-55,8+ Months,Very Low,Normal,Normal
+0,1,1,1,0,1,55-65,8+ Months,Very Low,Normal,Normal
+0,1,1,1,1,0,55-65,8+ Months,Very Low,Normal,Normal
+0,0,0,0,0,0,40-55,8+ Months,Very Low,Normal,Normal
+0,0,0,1,0,0,40-55,8+ Months,Normal,Normal,Normal
+0,1,1,0,0,0,40-55,8+ Months,Very Low,High,Normal
+0,1,1,0,0,0,40-55,8+ Months,Mildly Low,High,Normal
