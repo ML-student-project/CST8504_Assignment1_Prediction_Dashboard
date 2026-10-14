@@ -15,6 +15,11 @@ def plot_data(df: pd.DataFrame):
     plt.tight_layout()
     plt.show()
 
+##############################################################################################################
+#                                                                                                            #
+# Below is the code to clean and prepare our data so that it can be used for our decision tree and NN models #
+#                                                                                                            #
+##############################################################################################################
 
 # Remove any duplicates in dataset
 df.drop_duplicates()
