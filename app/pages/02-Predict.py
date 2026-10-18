@@ -1,7 +1,8 @@
 import streamlit as st
 import seaborn as sns
-import joblib
+#import joblib
 import pandas as pd
+import predictor as pr
 
 # streamlit page config
 st.set_page_config(
@@ -14,16 +15,16 @@ st.title("10 Year risk of coronary heart disease (CHD) prediction")
 st.header("User Input")
 
 # Define input widgets
-user_male            = st.radio("male            ",["Male","Female"])
-user_age             = st.slider("age            ",min_value=0, max_value=100, value=40)
+user_male            = st.radio("male            ",[1,0])
+user_age             = st.slider("age            ",min_value=32, max_value=70, value=40)
 user_education       = st.radio("education Years ",[1,2,3,4])
-user_cigsPerDay      = st.slider("cigsPerDay      ",min_value=0, max_value=100, value=30)
-user_totChol         = st.slider("totChol         ",min_value=0, max_value=1000, value=100)
-user_sysBP           = st.slider("sysBP           ",min_value=70, max_value=500, value=100)
-user_diaBP           = st.slider("diaBP           ",min_value=70, max_value=500, value=100)
-user_BMI             = st.slider("BMI             ",min_value=70, max_value=500, value=100)
-user_heartRate       = st.slider("heartRate       ",min_value=70, max_value=500, value=100)
-user_glucose         = st.slider("glucose         ",min_value=70, max_value=500, value=100)
+user_cigsPerDay      = st.slider("cigsPerDay      ",min_value=0, max_value=70, value=30)
+user_totChol         = st.slider("totChol         ",min_value=100, max_value=700, value=350)
+user_sysBP           = st.slider("sysBP           ",min_value=80, max_value=300, value=120)
+user_diaBP           = st.slider("diaBP           ",min_value=80, max_value=300, value=120)
+user_BMI             = st.slider("BMI             ",min_value=15, max_value=56, value=30)
+user_heartRate       = st.slider("heartRate       ",min_value=40, max_value=143, value=100)
+user_glucose         = st.slider("glucose         ",min_value=40, max_value=394, value=80)
 user_currentSmoker   = st.checkbox("currentSmoker   ")
 user_BPMeds          = st.checkbox("BPMeds          ")
 user_prevalentStroke = st.checkbox("prevalentStroke ")
@@ -35,7 +36,7 @@ if st.button("Predict"):
    # Prepare data for the model
    user_data = pd.DataFrame({
         "male": [user_male],
-        "age ": [user_age],
+        "age": [user_age],
         "education": [user_education],
         "currentSmoker": [1 if user_currentSmoker else 0],
         "cigsPerDay": [1 if user_cigsPerDay else 0],
@@ -48,14 +49,14 @@ if st.button("Predict"):
         "diaBP": [user_diaBP],
         "BMI": [user_BMI],
         "heartRate": [user_heartRate],
-        "glucose": [user_glucose]
+        "glucose": [user_glucose],
+        "TenYearCHD": [-1]  #-- Needed for preprocessor to run. Is removed by DNN predictor.
    })
 
    # Make prediction
-   #prediction = CHD_prediction(input_data)
-   prediction = [1]
+   prediction = pr.random_forest_predict(user_data)
 
-    # Display result
+   # Display result
    if prediction[0] == 1:
        st.error("At Risk of coronary heart disease in next 10 years")
    else:
