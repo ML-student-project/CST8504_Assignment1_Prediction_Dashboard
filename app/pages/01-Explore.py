@@ -59,7 +59,7 @@ def create_pie(df, attribute):
 def create_histogram(df, attribute):
     fig = px.histogram(df, x=attribute,
                             color="TenYearCHD",
-                            marginal="box",
+                            marginal=None,
                             barmode="overlay")
     fig.update_traces(marker=dict(line=dict(
                                         width=1,

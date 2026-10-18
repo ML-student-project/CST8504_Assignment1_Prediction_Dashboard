@@ -10,7 +10,12 @@ WORKDIR /app
 #    Docker caches this layer, so libraries are not reinstalled
 #    every time you change your code.
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+
+# Remove 'tensorflow_cpu' before installing as we are using Decision Tree for the final model.
+# Note: docker image with tensor-cpu installed = 3Gb
+#       docker image without tensorflow_cpu installed = 1.39G
+RUN sed '/^tensorflow_cpu/d' requirements.txt > filtered_requirements.txt && \
+    pip install --no-cache-dir -r filtered_requirements.txt
 
 # 4. Copy the rest of the project (code, models, processed data)
 COPY . .
